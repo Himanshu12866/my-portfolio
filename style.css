@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+body {
+  background-color:#1f242d ;
+  color: var(--text-color);
+}
+.navbar {
+  background-color: var(--bg-color);
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  color: var(--text-color);
+}
+
+a.active{
+  color: #0ef !important;
+}
+.nav-link {
+  color: var(--text-color);
+ 
+
+}
+.nav-link:hover {
+  color: var(--main-color);
+  border-bottom: 2px solid #0ef;
+}
+
+
+.bi-list {
+  color: white;
+  font-size: 2rem;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.home-img{
+  animation: updown .9s alternate infinite;
+}
+@keyframes updown {
+  0%{
+    transform: translateY(0);
+  }
+
+ 100%{
+  transform: translateY(-20px);
+ }
+  
+}
+.home-img img {
+  width: 100%;
+}
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--text-color);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
+}
+.social-media a:hover {
+  background-color: var(--second-bg-color);
+  color: var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border-radius: 4rem;
+  background: var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+  color: var(--second-bg-color);
+  transition: 0.5s ease;
+}
+.btn:hover {
+  box-shadow: none;
+  border: 3px solid #0ef;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+}
+.about .about-img img {
+  width: 34vw;
+  padding: 3.5rem;
+}
+.about .about-text {
+  text-align: justify;
+}
+
+span {
+  color: var(--main-color);
+}
+.heading {
+  font-size: 4rem;
+}
+.service h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.service-data {
+  width: 80%;
+  margin: auto;
+}
+.service-content {
+  width: 100%;
+  background-color: var(--second-bg-color);
+  height: auto;
+  margin-right: 35px;
+  border-radius: 35px;
+  text-align: center;
+  padding: 13px;
+  border: 4px solid var(--bg-color);
+  margin-bottom: 15px;
+  margin-top: 4rem;
+  transition: 0.3s;
+}
+.service-content p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.service-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 20px;
+  color: var(--main-color);
+}
+.service-content:hover {
+  border: 4px solid var(--main-color);
+  transform: scale(1.07);
+  box-shadow: 0 0 10px #0ef;
+}
+.service-content h2 {
+  font-weight: bold;
+}
+.service-content a {
+  margin-bottom: 10px;
+}
+.service-content img {
+  width: 100%;
+  height: 350px;
+  border-radius: 30px;
+  transition: 0.4s ease;
+}
+#p-data {
+  padding: 0;
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  border: 4px solid var(--bg-color);
+}
+#p-data:hover {
+  transform: scale(1.04);
+  border: 4px solid var(--main-color);
+}
+
+#p-data:hover img {
+  transform: scale(1.2);
+}
+.overlay {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  padding: 15px;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(58, 61, 61)
+  );
+  background-position: center;
+  background-size: cover;
+  
+  right: 0;
+  left: 0;
+  bottom: 100;
+
+  color: var(--text-color);
+  overflow: hidden;
+  transition: 0.4s linear;
+}
+#p-data:hover .overlay {
+  height: 350px;
+  bottom: 0;
+ 
+}
+.overlay h1{
+  font-size: 30px;
+  margin: 10px 0;
+  border-bottom: 3px solid var(--main-color);
+}
+.overlay p{
+  text-align: center;
+  padding-top: 10px;
+}
+.overlay .btn{
+    background-color: #1f242d;
+    color: var(--text-color);
+    box-shadow: 0 0 1.5rem var(--second-bg-color);
+}
+.overlay .btn:hover{
+  box-shadow: none;
+}
+.contact {
+  width: 100%;
+  margin: auto;
+
+}
+.row{
+  width: 50%;
+  margin: auto;
+  
+}
+.contact-box{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-box div{
+  width: 100%;
+  padding: 10px;
+}
+.contact .heading{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.row .col-lg-6 input{
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  transition: .2s linear;
+}
+.contact-box div textarea{
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  overflow-y: hidden;
+  background-color: var(--main-color);
+  border-radius: 6px;
+  resize: vertical;
+  transition: .2s linear;
+}
+.contact-box div textarea:focus{
+  background-color: var(--bg-color);
+  box-shadow: 0 0 10px var(--main-color);
+  color: var(--text-color);
+}
+::placeholder{
+  color: var(--bg-color);
+}
+.row .col-lg-6 input:focus{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: 0 0 10px #0ef;
+}
+
+.contact-box div button{
+  width: 100%;
+  padding: 15px;
+  margin: 10px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  transition: .2s linear;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.contact-box div button:hover{
+       box-shadow: 0 0 10px #0ef;
+       background-color:var(--bg-color);
+       color: var(--main-color);
+}
+
+
+
+.end-page{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+height: 200px;
+margin-top: 100px;
+text-align: center;
+  
+}
+.end-page a{
+  text-decoration: none;
+  color: var(--main-color);
+}
+.end-page a:hover{
+  text-decoration: underline;
+}
+.end-page div p i{
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding-top: 8px;
+  box-shadow: 0 0 1rem var(--main-color);
+  transition: .3s linear;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+.end-page div p i:hover{
+  box-shadow: none;
+}
