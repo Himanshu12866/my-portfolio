@@ -75,15 +75,15 @@ ScrollReveal({
 ScrollReveal().reveal(".social-media", {
   origin: "right",
 });
-// ScrollReveal({
-//   reset: true,
-//   distance: "80px",
-//   duration: 2000,
-//   delay: 200,
-// });
-// ScrollReveal().reveal(".about-para", {
-//   origin: "top",
-// });
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
+});
+ScrollReveal().reveal(".about-para", {
+  origin: "top",
+});
 ScrollReveal({
   reset: true,
   distance: "80px",
