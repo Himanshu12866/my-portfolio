@@ -82,7 +82,7 @@ ScrollReveal({
   delay: 200,
 });
 ScrollReveal().reveal(".about-para", {
-  origin: "right",
+  origin: "top",
 });
 ScrollReveal({
   reset: true,
