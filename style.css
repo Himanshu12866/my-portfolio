@@ -10,6 +10,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
@@ -19,6 +20,7 @@
 body {
   background-color:#1f242d ;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 .navbar {
   background-color: var(--bg-color);
