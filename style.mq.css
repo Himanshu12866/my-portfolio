@@ -21,13 +21,14 @@
     
    
 }
-@media(max-width:450px){
+@media(max-width:500px){
     .home{
         display: flex;
         flex-direction: column-reverse;
     }
    body{
-    width: 450px;
+   
+    overflow-x: hidden;
    }
     .home-info h3,p{
         font-size: 15px;
