@@ -2,7 +2,7 @@
 let navLinks = document.querySelectorAll("a");
 let sections = document.querySelectorAll("section");
 
-console.log(navLinks);
+
 
 // Function to check which section is in view and highlight the corresponding navigation link
 function highlightNavLink() {
