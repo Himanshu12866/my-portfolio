@@ -34,11 +34,11 @@ const typed = new Typed(".multiple-text", {
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
-  loop: true,
+  loop:false,
 });
 
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 100,
@@ -48,7 +48,7 @@ ScrollReveal().reveal(".home-content,.heading", {
 });
 
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -58,7 +58,7 @@ ScrollReveal().reveal(".about-img", {
 });
 
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -67,7 +67,7 @@ ScrollReveal().reveal(".home-info , h3", {
   origin: "left",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "150px",
   duration: 3000,
   delay: 200,
@@ -76,7 +76,7 @@ ScrollReveal().reveal(".social-media", {
   origin: "right",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -85,7 +85,7 @@ ScrollReveal().reveal(".about-para", {
   origin: "top",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -94,7 +94,7 @@ ScrollReveal().reveal(".skill-1", {
   origin: "left",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -103,7 +103,7 @@ ScrollReveal().reveal(".skill-2", {
   origin: "bottom",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -112,7 +112,7 @@ ScrollReveal().reveal(".skill-3", {
   origin: "right",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -121,7 +121,7 @@ ScrollReveal().reveal(".project-1", {
   origin: "right",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -130,7 +130,7 @@ ScrollReveal().reveal(".project-2", {
   origin: "left",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -139,7 +139,7 @@ ScrollReveal().reveal(".input-1", {
   origin: "left",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -148,7 +148,7 @@ ScrollReveal().reveal(".input-2", {
   origin: "right",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -157,7 +157,7 @@ ScrollReveal().reveal(".input-3", {
   origin: "bottom",
 });
 ScrollReveal({
-  reset: true,
+  reset:false,
   distance: "80px",
   duration: 2000,
   delay: 200,
