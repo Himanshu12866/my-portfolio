@@ -201,7 +201,7 @@ span {
   padding: 15px;
   background-image: linear-gradient(
     to bottom,
-    transparent,
+    rgba(0,0,0,.6),
     rgb(58, 61, 61)
   );
   background-position: center;
@@ -210,8 +210,6 @@ span {
   right: 0;
   left: 0;
   bottom: 100;
-
-  color: var(--text-color);
   overflow: hidden;
   transition: 0.4s linear;
 }
@@ -228,6 +226,8 @@ span {
 .overlay p{
   text-align: center;
   padding-top: 10px;
+  
+
 }
 .overlay .btn{
     background-color: #1f242d;
