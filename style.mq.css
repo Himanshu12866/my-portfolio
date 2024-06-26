@@ -106,6 +106,9 @@
 .about-para{
     text-align: center;
 }
+#p-data .overlay p{
+    font-size: 1rem;
+}
 
 }
 
